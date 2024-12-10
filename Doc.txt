@@ -1,0 +1,19 @@
+Règle de gestion
+
+    RG-001 : Récupérer les articles
+    RG-002 : Récupérer un article
+    RG-003 : Ajouter un article
+    RG-004 : Modifier un article
+    RG-005 : Supprimer un article
+
+Nous aurons pour l'instant 4 routes :
+
+    GET -> /articles
+    GET -> /article/:id
+    POST -> /save-article
+    DELETE -> /article/:id
+
+Afficher les message
+Vous afficherez les messages via l'instruction suivante (et non console.log):
+res.send(`Mon message`)
+res.json({message: `Mon message`})
